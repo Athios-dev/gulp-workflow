@@ -13,7 +13,7 @@ var cleanCSS = require('gulp-clean-css');
 // https://github.com/terinjokes/gulp-uglify/
 var uglify = require('gulp-uglify');
 
-// 📮 PATHS
+//  PATHS
 var paths = {
     inputs: {
         css: './src/scss/**/*.scss',
