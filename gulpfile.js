@@ -40,7 +40,7 @@ function workflowCSS() {
         .pipe(gulp.dest(paths.outputs.css));
 }
 
-// ⚙️ WORKFLOW CSS
+// ⚙️ WORKFLOW JS
 function workflowJS() {
     return gulp.src(paths.inputs.js)
     .pipe(babel())
